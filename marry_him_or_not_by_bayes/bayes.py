@@ -1,7 +1,7 @@
 #the naive bayes
 import numpy as np
 
-with open(r'/Users/fangzeqiang/Documents/GitHub/pyhton_to_learn/marryhim.csv',encoding='utf-8-sig') as file:
+with open(r'/Users/fangzeqiang/Documents/GitHub/pyhton_to_learn/marry_him_or_not_by_bayes/marryhim.csv',encoding='utf-8-sig') as file:
     txt=file.read().split('\n')#
 '''
 读取文档并预处理存入txt
